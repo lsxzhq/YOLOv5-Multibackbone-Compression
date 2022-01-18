@@ -1,9 +1,9 @@
 # Reference: https://github.com/cv516Buaa/tph-yolov5/blob/main/models/yolov5l-xs-tr-cbam-spp-bifpn.yaml
 
 # Parameters
-nc: 10  # number of classes
-depth_multiple: 1.33  # model depth multiple
-width_multiple: 1.25  # layer channel multiple
+nc: 1  # number of classes
+depth_multiple: 0.67  # model depth multiple
+width_multiple: 0.75  # layer channel multiple
 anchors:
   - [7,9,  9,17,  17,15,  13,27] 
   - [21,28,  36,18,  23,47,  35,33]  # P3/8
